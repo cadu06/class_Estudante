@@ -35,36 +35,4 @@ public class Estudante {
             throw new IllegalArgumentException("Valor inválido");
         }
     }
-
-    public int getMatricula() {
-        return matricula;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public char getSexo() {
-        return sexo;
-    }
-
-    public double[] getNotas() {
-        return notas;
-    }
-
-    public void setMatricula(int matricula) {
-        this.matricula = matricula;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public void setSexo(char sexo) {
-        this.sexo = sexo;
-    }
-
-    public void setNotas(double[] notas) {
-        this.notas = notas;
-    }
 }

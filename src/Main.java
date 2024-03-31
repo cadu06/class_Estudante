@@ -8,6 +8,6 @@ public class Main {
         estudante.atribuirNota(4, 8.5);
         estudante.exibir();
 
-        System.out.println("Nota da Prova: " + estudante.lerNota(1));
+        System.out.println("Nota da Prova 1: " + estudante.lerNota(1));
     }
 }
